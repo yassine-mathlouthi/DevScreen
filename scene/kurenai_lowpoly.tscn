@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ck6ttbx6b1c7s"]
+
+[ext_resource type="PackedScene" uid="uid://d1iqt5v11fl8f" path="res://asstes/KURENAI_lowpoly.fbx" id="1_ifm3w"]
+
+[node name="KURENAI_lowpoly" instance=ExtResource("1_ifm3w")]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0)

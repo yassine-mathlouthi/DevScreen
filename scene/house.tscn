@@ -1,0 +1,73 @@
+[gd_scene load_steps=7 format=3 uid="uid://cy7ag8huyyajh"]
+
+[ext_resource type="PackedScene" uid="uid://b85gaaes7b3pi" path="res://asstes/House/House/Models/House.fbx" id="1_atexv"]
+
+[sub_resource type="Animation" id="Animation_vjqwo"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.5708, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_ae14o"]
+resource_name = "garage_close"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.966667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-3.07171, 0, 0), Vector3(-1.5708, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_atexv"]
+resource_name = "garage_open"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.5708, 0, 0), Vector3(-3.07171, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3bjdp"]
+_data = {
+&"RESET": SubResource("Animation_vjqwo"),
+&"garage_close": SubResource("Animation_ae14o"),
+&"garage_open": SubResource("Animation_atexv")
+}
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_atexv"]
+points = PackedVector3Array(0.0177778, 0.00124444, 0.00107778, -0.0177778, -0.000977778, -0.0294778, -0.0177778, 0.00124444, -0.0294778, 0.0177778, -0.000977778, -0.0294778, -0.0177778, -0.000977778, 0.00107778, -0.0177778, 0.00124444, 0.00107778, 0.0177778, 0.00124444, -0.0294778, 0.0177778, -0.000977778, 0.00107778)
+
+[node name="House" instance=ExtResource("1_atexv")]
+freeze = true
+
+[node name="Garage_Door" parent="." index="652"]
+transform = Transform3D(100, 0, 0, 0, -0.000361999, 100, 0, -100, -0.000361999, -1.59522, 2.84383, -1.74236)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Garage_Door" index="0"]
+libraries = {
+&"": SubResource("AnimationLibrary_3bjdp")
+}
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="653"]
+transform = Transform3D(100, 0, 0, 0, -1.19209e-05, 100, 0, -100, -1.19209e-05, -1.59522, 2.84383, -1.74236)
+shape = SubResource("ConvexPolygonShape3D_atexv")

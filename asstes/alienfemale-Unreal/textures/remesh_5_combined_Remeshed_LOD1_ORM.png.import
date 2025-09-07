@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://tfr8l5p2nvoq"
+path.s3tc="res://.godot/imported/remesh_5_combined_Remeshed_LOD1_ORM.png-e64bcf38097ce73d4ff70ed28a88fedc.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://asstes/alienfemale-Unreal/textures/remesh_5_combined_Remeshed_LOD1_ORM.png"
+dest_files=["res://.godot/imported/remesh_5_combined_Remeshed_LOD1_ORM.png-e64bcf38097ce73d4ff70ed28a88fedc.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
