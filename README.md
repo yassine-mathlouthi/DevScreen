@@ -99,7 +99,9 @@ The .NET edition is recommended because the bundled weather system uses C#, whil
 
 Follow the development tutorial on YouTube:
 
-[![Watch the Beat the Zombie Game tutorial](https://img.youtube.com/vi/FyW4RXlowU0/maxresdefault.jpg)](https://www.youtube.com/watch?v=FyW4RXlowU0)
+<img width="1913" height="1079" alt="image" src="https://github.com/user-attachments/assets/a8d2f7f1-feab-4ed6-85db-1aaf970bcf83" />
+<img width="1914" height="1079" alt="image" src="https://github.com/user-attachments/assets/3c72dd41-4db3-40e1-a930-a747b7952d98" />
+
 
 **[Watch the tutorial on YouTube](https://www.youtube.com/watch?v=FyW4RXlowU0)**
 
