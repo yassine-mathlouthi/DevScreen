@@ -41,12 +41,8 @@ The project is intended for experimentation and learning. Gameplay systems, cont
 
 ## Screenshots
 
-<table>
-  <tr>
-    <td align="center"><img src="screenshots/screenshot1.jpg" alt="Clear weather environment preview" width="100%"><br><sub>Clear weather preview</sub></td>
-    <td align="center"><img src="screenshots/screenshot2.jpg" alt="Winter weather environment preview" width="100%"><br><sub>Winter and snow preview</sub></td>
-  </tr>
-</table>
+<img width="1913" height="1079" alt="image" src="https://github.com/user-attachments/assets/a8d2f7f1-feab-4ed6-85db-1aaf970bcf83" />
+<img width="1914" height="1079" alt="image" src="https://github.com/user-attachments/assets/3c72dd41-4db3-40e1-a930-a747b7952d98" />
 
 > The screenshots show environment and weather-system development previews. Visuals may change as the game evolves.
 
@@ -99,8 +95,7 @@ The .NET edition is recommended because the bundled weather system uses C#, whil
 
 Follow the development tutorial on YouTube:
 
-<img width="1913" height="1079" alt="image" src="https://github.com/user-attachments/assets/a8d2f7f1-feab-4ed6-85db-1aaf970bcf83" />
-<img width="1914" height="1079" alt="image" src="https://github.com/user-attachments/assets/3c72dd41-4db3-40e1-a930-a747b7952d98" />
+
 
 
 **[Watch the tutorial on YouTube](https://www.youtube.com/watch?v=FyW4RXlowU0)**
